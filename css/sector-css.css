@@ -1,0 +1,338 @@
+/*----------------sector css-------------------------------reset css----------------------------------*/
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+     color: #414041;
+     font-family: 'Open Sans', sans-serif;
+}
+
+{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+    position: relative;
+}
+
+.menu-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    padding: 10px;
+    background-color: #2B3990;
+    width: 40px;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    position: fixed;
+}
+
+.search-form{
+    position: absolute;
+    right: 8%;
+    top: 22px;
+    z-index: 1;
+    position: fixed;
+}
+
+.sutra{
+    position: absolute;
+    left: 0px;
+    top:20px;
+    background-color: #2B3990;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+    padding: 10px;
+    width: 175px;
+    position: fixed;
+}
+
+.sutra img{
+    width: 100px;
+    float: right;
+    margin-right: 20px;
+}
+
+.search-form input[type="text"]{
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 300px;
+    background-color: #414042;
+    opacity: .2;
+}
+
+input:focus{
+    border: 1px solid transparent;
+}
+
+.search-form input[type="text"]::placeholder{
+    color: #fff;
+    font-size: 21px;
+}
+
+.search-form button{
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: #2B3990;
+    padding: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search-form button img{
+        width: 30px;
+}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Sector section one starts here*/
+.contact-img{
+    background-image: url(../img/architecture-buildings-business-325185.jpg);
+    width: 100%;
+    position: relative;
+    height: 700px;
+    background-position-x: -11px;
+}
+
+.text-contact{
+    position: absolute;
+    bottom: 0%;
+    left: 22%;
+    width: 31%;
+    background: #414042;
+    opacity: .5;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.text-contact h1{
+    color: #e5e5e5;
+}
+.middle-sec{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.fisrt-line p{
+    font-size: 21px;
+    color: #414042;
+    margin: 70px 0px;
+}
+
+.grid-layout ul li{
+    float: left;
+    width: 269px;
+    height: 269px;
+    list-style-type: none;
+}
+
+.grid-img img{
+    width: 269px;
+    height: 269px;
+}
+
+.single-grid h3, .single-grid p, .single-grid a{
+    display: inline-block;
+    padding: 10px;
+}
+.single-grid h3{
+    font-size: 21px;
+}
+.single-grid p{
+    font-size: 14px;
+}
+.single-grid a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.grid-img p {
+    position: absolute;
+    bottom: 10px;
+    background: #D1D3D4;
+    opacity: .5;
+    color: #231F20;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.grid-img{
+    position: relative;
+}
+/* footer section starts here*/
+
+.footer{
+    background-color: #414042;
+    color: #D1D3D4;
+    padding: 1% 5%;
+}
+
+.footer h3{
+    font-size: 15px !important;
+    margin-bottom: 5px;
+}
+
+.widget2{
+    float: left;
+    width: 17%;
+    margin-left: 2%;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.footer li a{
+    text-decoration: none;
+     color: #D1D3D4;
+}
+
+.f-link1 li, .f-link2 li, .f-link3 address, .f-link4 address, .f-link5 address{
+    font-size: 13px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.f-link1 li{
+    margin-left: 20%;
+}
+
+.footer address{
+    text-decoration: none;
+}
+
+.foot-logo img{
+    width: 40%;
+}
+
+/* bottom footer starts here*/
+
+.bottom-footer{
+    margin-top: 4%;
+    font-size: 12px !important;
+}
+
+.left-bottom{
+    float: left;
+}
+
+.right-bottom{
+    float: right;
+}
+
+.social-side li{
+    float: left;
+}
+
+.social-side li a{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/* ----------------------------------------Mobile phone for 768px width css strats here------------------------------------*/
+
+@media only screen and (max-width: 768px){
+    .search-form{ display: none !important;}
+    .we-are p{display: none;}
+    .about{clip-path: none !important;}
+    .top-name{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500px;
+    opacity: 0.62;
+    color: #414042;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+h1{
+    font-size: 30px;
+}
+.sutra{
+    display: none;
+}
+.widget2{
+    width: 100%;
+    margin: 5% auto;
+    float: none;
+}
+.f-link1 li{
+    margin-left: 0%;
+}
+
+.foot-logo img {
+    width: 30%;
+}
+.contact-img{
+    height: 500px;
+}
+}

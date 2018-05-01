@@ -1,0 +1,59 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * henderson-bcg-sans:
+ *   - http://typekit.com/eulas/00000000000000003b9af964
+ *   - http://typekit.com/eulas/00000000000000003b9af95e
+ *   - http://typekit.com/eulas/00000000000000003b9af95f
+ * henderson-bcg-serif:
+ *   - http://typekit.com/eulas/00000000000000003b9af969
+ *   - http://typekit.com/eulas/00000000000000003b9af968
+ *   - http://typekit.com/eulas/00000000000000003b9af967
+ *
+ * © 2009-2017 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2017-12-28 17:58:18 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=tng6xmh&ht=sh&f=22768.22773.22774.22775.22776.22777&a=3472013&app=typekit&e=css");
+
+@font-face {
+font-family:"henderson-bcg-sans";
+src:url("//fonts.bcg.com/k/84b0fe59c79bcb7340334eb23ac343cbcbe067f9-l.woff2") format("woff2"),url("//fonts.bcg.com/k/84b0fe59c79bcb7340334eb23ac343cbcbe067f9-d.woff") format("woff"),url("//fonts.bcg.com/k/84b0fe59c79bcb7340334eb23ac343cbcbe067f9-a.otf") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"henderson-bcg-sans";
+src:url("//fonts.bcg.com/k/f0f5cc3c7b9a15664a190ef35942698a6e0188da-l.woff2") format("woff2"),url("//fonts.bcg.com/k/f0f5cc3c7b9a15664a190ef35942698a6e0188da-d.woff") format("woff"),url("//fonts.bcg.com/k/f0f5cc3c7b9a15664a190ef35942698a6e0188da-a.otf") format("opentype");
+font-style:normal;font-weight:200;
+}
+
+@font-face {
+font-family:"henderson-bcg-sans";
+src:url("//fonts.bcg.com/k/35be9e82839e0dfcc3d5f1a88f35f0ea7e303129-l.woff2") format("woff2"),url("//fonts.bcg.com/k/35be9e82839e0dfcc3d5f1a88f35f0ea7e303129-d.woff") format("woff"),url("//fonts.bcg.com/k/35be9e82839e0dfcc3d5f1a88f35f0ea7e303129-a.otf") format("opentype");
+font-style:italic;font-weight:200;
+}
+
+@font-face {
+font-family:"henderson-bcg-serif";
+src:url("//fonts.bcg.com/k/41463074d14e85a391d297943db97490442b2de0-l.woff2") format("woff2"),url("//fonts.bcg.com/k/41463074d14e85a391d297943db97490442b2de0-d.woff") format("woff"),url("//fonts.bcg.com/k/41463074d14e85a391d297943db97490442b2de0-a.otf") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"henderson-bcg-serif";
+src:url("//fonts.bcg.com/k/72bbe994b05c4d08eafb9a36a6f59160353999af-l.woff2") format("woff2"),url("//fonts.bcg.com/k/72bbe994b05c4d08eafb9a36a6f59160353999af-d.woff") format("woff"),url("//fonts.bcg.com/k/72bbe994b05c4d08eafb9a36a6f59160353999af-a.otf") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"henderson-bcg-serif";
+src:url("//fonts.bcg.com/k/2b694b56a31e46bc787695b44b873aa1c46823f0-l.woff2") format("woff2"),url("//fonts.bcg.com/k/2b694b56a31e46bc787695b44b873aa1c46823f0-d.woff") format("woff"),url("//fonts.bcg.com/k/2b694b56a31e46bc787695b44b873aa1c46823f0-a.otf") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+.tk-henderson-bcg-sans { font-family: "henderson-bcg-sans","Helvetica"; }
+.tk-henderson-bcg-serif { font-family: "henderson-bcg-serif",sans-serif; }
